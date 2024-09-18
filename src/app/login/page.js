@@ -52,7 +52,7 @@ export default function LoginPage() {
                 <button type="submit" className="bg-blue-800 p-4 rounded-lg shadow-lg text-white hover:bg-blue-900 transition-transform transform hover:scale-105">Login</button>
             </form>
             <p className="mt-4">
-                Don't have an account? <a href="/signup" className="underline">Sign Up</a>
+                Don&apos have an account? <a href="/signup" className="underline">Sign Up</a>
             </p>
         </div>
     );
