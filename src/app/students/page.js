@@ -24,7 +24,6 @@ const StudentsPage = () => {
     return (
         <div className="p-6 bg-gradient-to-r from-gray-200 to-gray-400 min-h-screen animate-fade-in">
             <h1 className="text-3xl font-bold mb-4">Students</h1>
-            <Link href="/students/new" className="border-2 p-2 rounded-xl mb-8 bg-white text-blue-800 hover:bg-gray-100 transition-transform transform hover:scale-105">Add Student</Link>
             <table className="min-w-full bg-white shadow-lg rounded-lg mt-4">
                 <thead className="bg-gray-200 text-gray-800">
                     <tr>
