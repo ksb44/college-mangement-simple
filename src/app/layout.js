@@ -43,7 +43,7 @@ export default function Layout({ children }) {
         setIsAuthenticated(false);
         setIsAdmin(false);
         router.push('/login');
-        window.location.reload();
+       
     };
 
     return (
